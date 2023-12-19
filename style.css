@@ -6,6 +6,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    color: black;
+}
+
 .kiddos:hover {
     scale: 110%;
     transition-duration: 1s;
@@ -39,4 +43,8 @@ body {
 .kiddoimage {
     height: 300px;
     text-align: center;
+}
+
+footer {
+    font-size: smaller;
 }
