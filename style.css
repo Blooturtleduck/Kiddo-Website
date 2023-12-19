@@ -1,5 +1,9 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
-    background-color: #EBF6F8;
+    background-color: white;
     line-height: 3;
     text-indent: 10px; 
     position: fixed;
@@ -13,7 +17,7 @@ nav {
 .pagelinkdiv {
     display: inline-flex;
     position: fixed;
-    right: 10px;
+    left: 10px;
     top: 2px;   
 }
 
@@ -30,7 +34,8 @@ nav {
     color: rgb(150, 150, 150);
 }
 
-body {
+h1 {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
