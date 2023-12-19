@@ -1,5 +1,33 @@
 nav {
-    font-size: small;
+    background-color: #EBF6F8;
+    line-height: 3;
+    text-indent: 10px; 
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: fit-content;
+    z-index: 1000;
+}
+
+.pagelinkdiv {
+    display: inline-flex;
+    position: fixed;
+    right: 10px;
+    top: 2px;   
+}
+
+.pagelink {
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pagelink:hover, .heading:hover {
+    color: rgb(150, 150, 150);
 }
 
 body {
