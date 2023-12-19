@@ -1,3 +1,33 @@
 nav {
     font-size: small;
 }
+
+#kiddointros {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.kiddos {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 7px;
+    border: 0px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(15, 88, 147);
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.kiddoname {
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.kiddoimage {
+    height: 300px;
+    text-align: center;
+}
