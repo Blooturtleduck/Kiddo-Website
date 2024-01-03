@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin-top: 70px;
+}
+
+nav {
+    background-color: white;
+    line-height: 3;
+    text-indent: 10px; 
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: fit-content;
+    z-index: 1000;
+}
+
+.pagelinkdiv {
+    display: inline-flex;
+    position: fixed;
+    left: 10px;
+    top: 2px;   
+}
+
+.pagelink {
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pagelink:hover, .heading:hover {
+    color: rgb(150, 150, 150);
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: black;
+}
+
+.kiddos:hover {
+    scale: 110%;
+    transition-duration: 1s;
+}
+
+#kiddointros, .infosection {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.kiddos, .infoblock {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 7px;
+    border: 0px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(15, 88, 147);
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.kiddoname {
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.kiddoimage {
+    height: 300px;
+    text-align: center;
+}
+
+footer {
+    font-size: smaller;
+}
